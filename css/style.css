@@ -41,9 +41,115 @@ font-family: 'Comfortaa', cursive;
     background-color: teal;
     background: url(../img/P1070163.jpg) no-repeat center fixed;
     background-size: cover;
+    padding: 20px;
 }
 
 #title h1 {
-    margin: 0;
     color: #FAF9F0;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    margin: 5%;
+}
+
+.banbutton {
+    background-color: cadetblue;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 128px;
+    text-decoration: none;
+    color: red;
+}
+
+.banbutton:hover {
+    background-color: blueviolet;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 128px;
+    text-decoration: none;
+    color: red;
+}
+
+#banner .fa-angle-down {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    font-size: 1.8em;
+    color: #FAF9F0;
+}
+
+#banner .fa-angle-down:hover {
+    transform: scale(1.5);
+    transition: all 0.1s ease-out;
+}
+
+@media all and (max-width: 576px) {
+    #banner h1 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #banner h1 span:last-of-type{
+        padding-left: 15px;
+    }
+
+    #banbuttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .banbutton {
+        margin: 20px 10px;
+    }
+}
+
+@media all and (min-width: 577px) {
+    #banner h1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #banner h1 span:last-of-type{
+        padding-left: 5%;
+    }
+  
+    #banbuttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banbutton {
+        position: absolute;
+        margin-right: 10%;
+        top: 80px;
+    }
+
+    .banbutton:first-of-type {
+        right: 23%;
+    }
+
+    .banbutton:nth-of-type(2) {
+        right: 19%;
+        margin-top: 60px;
+    }
+
+    .banbutton:nth-of-type(3) {
+        right: 14%;
+        margin-top: 110px;
+    }
+
+    .banbutton:nth-of-type(4) {
+        right: 9%;
+        margin-top: 160px;
+    }
+
+    .banbutton:nth-of-type(5) {
+        right: 5%;
+        margin-top: 210px;
+    }
+
+    .banbutton:last-of-type {
+        right: 0;
+        margin-top: 260px;
+    }
 }

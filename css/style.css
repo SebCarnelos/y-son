@@ -46,7 +46,7 @@ font-family: 'Comfortaa', cursive;
 #title h1 {
     font-family: 'Comfortaa', cursive;
     color: #FAF9F0;
-    font-size: 2.3em;
+    font-size: 1.7em;
     text-transform: uppercase;
     margin: 5%;
 }
@@ -88,6 +88,7 @@ font-family: 'Comfortaa', cursive;
 }
 
 #aboutme {
+    height: fit-content;
     background: url(../img/yomaxi1.jpg) no-repeat center top;
     background-size: cover;
     padding: 50px;
@@ -139,10 +140,6 @@ a:hover {
 
     #introvid iframe {
         width: 100%;
-    }
-
-    #aboutme {
-        height: 516px;
     }
 }
 
@@ -201,7 +198,7 @@ a:hover {
         height: 315px;
     }
 
-    #aboutme {
-        height: 450px;
+    #aboutme p {
+        width: 50%;
     }
 }

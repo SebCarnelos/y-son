@@ -38,13 +38,13 @@ font-family: 'Comfortaa', cursive;
 
 #banner {
     height: 94vh;
-    background-color: teal;
     background: url(../img/P1070163.jpg) no-repeat center fixed;
     background-size: cover;
     padding: 20px;
 }
 
 #title h1 {
+    font-family: 'Comfortaa', cursive;
     color: #FAF9F0;
     font-size: 2.3em;
     text-transform: uppercase;
@@ -87,6 +87,36 @@ font-family: 'Comfortaa', cursive;
     text-align: center;
 }
 
+#aboutme {
+    background: url(../img/yomaxi1.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 50px;
+    color: #FAF9F0;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    background-color: aqua;
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 2.2em;
+    margin: 70px 0 70px 25px;
+}
+
+a {
+    color: #F6490D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 @media all and (max-width: 576px) {
     #banner h1 {
         margin-top: 50px;
@@ -109,6 +139,10 @@ font-family: 'Comfortaa', cursive;
 
     #introvid iframe {
         width: 100%;
+    }
+
+    #aboutme {
+        height: 516px;
     }
 }
 
@@ -165,5 +199,9 @@ font-family: 'Comfortaa', cursive;
     #introvid iframe {
         width: 560px;
         height: 315px;
+    }
+
+    #aboutme {
+        height: 450px;
     }
 }

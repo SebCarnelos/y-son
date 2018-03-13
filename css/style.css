@@ -162,7 +162,12 @@ a:hover {
     }
 
     #soundrecording {
-        background: url(../img/pexels-photo-185030.jpeg) no-repeat center;
+        background: url(../img/P1070156.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    #mixing {
+        background: url(../img/P1070158.jpg) no-repeat center;
         background-size: cover;
     }
 }
@@ -239,7 +244,13 @@ a:hover {
 
     #srimg {
         width: 75%;
-        background: url(../img/pexels-photo-185030.jpeg) no-repeat center;
+        background: url(../img/P1070156.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    #miximg {
+        width: 75%;
+        background: url(../img/P1070158.jpg) no-repeat center;
         background-size: cover;
     }
 }

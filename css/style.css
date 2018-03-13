@@ -118,6 +118,20 @@ a:hover {
     text-decoration: underline;
 }
 
+.categories {
+    height: fit-content;
+    border-top: #000249 20px solid;
+}
+
+.cat-text {
+    color: #FAF9F0;
+    padding: 50px;
+}
+
+.categories p:first-of-type {
+    margin: 50px 0;
+}
+
 @media all and (max-width: 576px) {
     #banner h1 {
         margin-top: 50px;
@@ -140,6 +154,16 @@ a:hover {
 
     #introvid iframe {
         width: 100%;
+    }
+
+    #soundsystem {
+        background: url(../img/P1070152.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    #soundrecording {
+        background: url(../img/pexels-photo-185030.jpeg) no-repeat center;
+        background-size: cover;
     }
 }
 
@@ -200,5 +224,22 @@ a:hover {
 
     #aboutme p {
         width: 50%;
+    }
+
+    .categories {
+        background-color: #000505;
+        display: flex;
+    }
+
+    #ssimg {
+        width: 75%;
+        background: url(../img/P1070152.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    #srimg {
+        width: 75%;
+        background: url(../img/pexels-photo-185030.jpeg) no-repeat center;
+        background-size: cover;
     }
 }

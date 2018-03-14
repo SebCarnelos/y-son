@@ -170,6 +170,11 @@ a:hover {
         background: url(../img/P1070158.jpg) no-repeat center;
         background-size: cover;
     }
+    
+    #composing {
+        background: url(../img/pexels-photo-96380.jpeg) no-repeat center;
+        background-size: cover;
+    }
 }
 
 @media all and (min-width: 577px) {
@@ -251,6 +256,12 @@ a:hover {
     #miximg {
         width: 75%;
         background: url(../img/P1070158.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    #compimg {
+        width: 75%;
+        background: url(../img/pexels-photo-96380.jpeg) no-repeat center;
         background-size: cover;
     }
 }

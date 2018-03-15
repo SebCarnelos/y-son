@@ -147,9 +147,6 @@ a:hover {
     margin-top: 50px;
 }
 
-.part-nologo {
-    margin-top: 50px;
-}
 
 #footer {
     margin: 5px 10px;
@@ -203,6 +200,10 @@ a:hover {
     
     #partners {
         background-color: #000505;
+    }
+
+    .part-nologo {
+        margin-top: 50px;
     }
 }
 
@@ -298,5 +299,18 @@ a:hover {
         width: 75%;
         background: url(../img/P1070160.jpg) no-repeat center;
         background-size: cover;
+    }
+
+    #partgrouped {
+        display: flex;
+    }
+
+    .partgrouped {
+        margin: 0 25px;
+        align-self: center;
+    }
+
+    .part-nologo {
+        margin-top: 200px;
     }
 }

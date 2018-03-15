@@ -15,8 +15,8 @@ font-family: 'Comfortaa', cursive;
     right: 0;
     left: 0;
     padding: 5px 10px;
-    background-color: #000505;
-    color: #F6490D;
+    background-color: #1DCED8;
+    color: #000505;
     font-size: 0.8em;
     font-weight: 600;
     display: flex;
@@ -40,6 +40,7 @@ font-family: 'Comfortaa', cursive;
 
 #contact-bar a {
     text-decoration: none;
+    color: #000505;
 }
 
 #banner {
@@ -64,21 +65,27 @@ h4 {
 }
 
 .banbutton {
-    background-color: cadetblue;
+    background-color: #FAF9F0;
     padding: 5px 10px;
     border-radius: 3px;
-    width: 128px;
+    width: 150px;
     text-decoration: none;
-    color: red;
+    color: #000505;
+    box-shadow: 0px 2px 0 3px #000505;
+    text-align: center;
+    font-weight: 600;
 }
 
 .banbutton:hover {
-    background-color: blueviolet;
-    padding: 5px 10px;
-    border-radius: 3px;
-    width: 128px;
+    background-color: #C6C6BE;
+    color: #F6490D;
     text-decoration: none;
-    color: red;
+}
+
+.banbutton:active {
+    box-shadow: 0px -2px 0 3px #000505;
+    padding-top: 7px;
+    margin-bottom: 18px;
 }
 
 #banner .fa-angle-down {

@@ -49,7 +49,7 @@ font-family: 'Comfortaa', cursive;
 }
 
 #banner {
-    min-height: 100vh;
+    min-height: 96vh;
     background: url(../img/P1070163.jpg) no-repeat center fixed;
     background-size: cover;
     padding: 20px;
@@ -110,12 +110,6 @@ h4 {
 #banner .fa-angle-down:hover {
     transform: scale(1.5);
     transition: all 0.1s ease-out;
-}
-
-#introvid {
-    background-color: #262322;
-    padding: 20px;
-    text-align: center;
 }
 
 #aboutme {
@@ -201,10 +195,6 @@ a:hover {
         justify-content: space-evenly;
     }
 
-    #introvid iframe {
-        width: 100%;
-    }
-
     #soundsystem {
         background: url(../img/P1070158.jpg) no-repeat center;
         background-size: cover;
@@ -284,11 +274,6 @@ a:hover {
     .banbutton:last-of-type {
         top: 70%;
         right:5%;
-    }
-
-    #introvid iframe {
-        width: 560px;
-        height: 315px;
     }
 
     #aboutme p {

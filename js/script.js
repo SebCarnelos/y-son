@@ -7,3 +7,15 @@ $(document).ready(function() {
         return false;
     });
 });
+
+// Back to Top button appearence
+$(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 500) {
+      $('#totop').fadeIn();
+    } else {
+      $('#totop').fadeOut();
+    }
+  });
+
+// Back to top button

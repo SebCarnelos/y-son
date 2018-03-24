@@ -49,7 +49,7 @@ font-family: 'Comfortaa', cursive;
 }
 
 #banner {
-    height: 94vh;
+    min-height: 100vh;
     background: url(../img/P1070163.jpg) no-repeat center fixed;
     background-size: cover;
     padding: 20px;
@@ -70,27 +70,28 @@ h4 {
 }
 
 .banbutton {
-    background-color: #FAF9F0;
-    padding: 5px 10px;
+    background-color: #C6C6BE;
+    box-shadow: 0 3px #262322;
+    padding: 12px 5px 10px 5px;
     border-radius: 3px;
     width: 150px;
     text-decoration: none;
     color: #000505;
-    box-shadow: 0px 2px 0 3px #000505;
     text-align: center;
     font-weight: 600;
 }
 
 .banbutton:hover {
-    background-color: #C6C6BE;
+    background-color: #FAF9F0;
+    transition: background-color 0.1s ease-out;
     color: #F6490D;
     text-decoration: none;
 }
 
 .banbutton:active {
-    box-shadow: 0px -2px 0 3px #000505;
-    padding-top: 7px;
-    margin-bottom: 18px;
+    background-color: #FAF9F0;
+    margin-top: 3px;
+    box-shadow: none;
 }
 
 #banner .fa-angle-down {
@@ -205,7 +206,7 @@ a:hover {
     }
 
     #soundsystem {
-        background: url(../img/P1070152.jpg) no-repeat center;
+        background: url(../img/P1070158.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -215,7 +216,7 @@ a:hover {
     }
     
     #mixing {
-        background: url(../img/P1070158.jpg) no-repeat center;
+        background: url(../img/mix.png) no-repeat center;
         background-size: cover;
     }
     
@@ -303,7 +304,7 @@ a:hover {
 
     #ssimg {
         width: 75%;
-        background: url(../img/P1070152.jpg) no-repeat center;
+        background: url(../img/P1070158.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -315,7 +316,7 @@ a:hover {
 
     #miximg {
         width: 75%;
-        background: url(../img/P1070158.jpg) no-repeat center;
+        background: url(../img/mix.png) no-repeat center;
         background-size: cover;
     }
 

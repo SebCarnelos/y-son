@@ -69,16 +69,21 @@ h4 {
     opacity: 0.8;
 }
 
+#banbuttons {
+    display: flex;
+}
+
 .banbutton {
     background-color: #C6C6BE;
     box-shadow: 0 3px #262322;
-    padding: 12px 5px 10px 5px;
+    padding: 10px 0;
     border-radius: 3px;
     width: 150px;
     text-decoration: none;
     color: #000505;
     text-align: center;
     font-weight: 600;
+    margin: 20px 5px;
 }
 
 .banbutton:hover {
@@ -90,8 +95,8 @@ h4 {
 
 .banbutton:active {
     background-color: #FAF9F0;
-    margin-top: 3px;
     box-shadow: none;
+    margin: 23px 5px 17px 5px;
 }
 
 #banner .fa-angle-down {
@@ -192,13 +197,8 @@ a:hover {
     }
 
     #banbuttons {
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
-
-    .banbutton {
-        margin: 20px 10px;
     }
 
     #introvid iframe {
@@ -249,43 +249,41 @@ a:hover {
     }
   
     #banbuttons {
-        display: flex;
         flex-direction: column;
     }
 
     .banbutton {
         position: absolute;
-        margin-right: 10%;
-        top: 80px;
     }
-
+    
     .banbutton:first-of-type {
-        right: 23%;
-    }
-
-    .banbutton:nth-of-type(2) {
+        top: 10%;
         right: 19%;
-        margin-top: 60px;
     }
-
+    
+    .banbutton:nth-of-type(2) {
+        top: 22%;
+        right: 17%;
+    }
+    
     .banbutton:nth-of-type(3) {
+        top: 34%;
         right: 14%;
-        margin-top: 110px;
     }
-
+    
     .banbutton:nth-of-type(4) {
-        right: 9%;
-        margin-top: 160px;
+        top: 46%;
+        right: 10%;
     }
-
+    
     .banbutton:nth-of-type(5) {
-        right: 5%;
-        margin-top: 210px;
+        top: 58%;
+        right: 7%;
     }
-
+    
     .banbutton:last-of-type {
-        right: 0;
-        margin-top: 260px;
+        top: 70%;
+        right:5%;
     }
 
     #introvid iframe {

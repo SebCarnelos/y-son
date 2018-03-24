@@ -2,6 +2,7 @@ body {
     margin: 0;
 /*  color: #000505; */
     font-family: 'Open Sans', sans-serif;
+    color: #FAF9F0;
     font-weight: 300;
 }
 
@@ -15,14 +16,13 @@ font-family: 'Comfortaa', cursive;
     right: 0;
     left: 0;
     padding: 5px 10px;
-    background-color: #1DCED8;
-    color: #000505;
+    background-color: #000505;
     font-size: 0.8em;
     font-weight: 600;
     display: flex;
     justify-content: space-between;
     z-index: 1;
-    border-bottom: 3px solid #F6490D;
+    border-bottom: 2px solid #F6490D;
 }
 
 #contact-bar ul {
@@ -41,7 +41,11 @@ font-family: 'Comfortaa', cursive;
 
 #contact-bar a {
     text-decoration: none;
-    color: #000505;
+    color: #FAF9F0;
+}
+
+#contact-bar a:hover {
+    color: #F6490D;
 }
 
 #banner {
@@ -143,7 +147,7 @@ a:hover {
     min-height: 100vh;
     max-height: fit-content;
     border-top: #000249 20px solid;
-    text-shadow: 1px 1px 2px #262322; 
+    text-shadow: 1px 1px 2px #000505; 
 }
 
 .cat-text {
@@ -169,6 +173,7 @@ a:hover {
     margin: 5px 10px;
     font-size: 0.8em;
     text-align: right;
+    color: #000505;
 }
 
 @media all and (max-width: 576px) {

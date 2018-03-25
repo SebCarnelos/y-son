@@ -8,7 +8,7 @@ body {
 
 /*
 font-family: 'Open Sans', sans-serif; <-- light = 300 / bold = 600
-font-family: 'Comfortaa', cursive;
+font-family: 'Share Tech Mono', monospace;
 */
 
 #contact-bar {
@@ -56,9 +56,9 @@ font-family: 'Comfortaa', cursive;
 }
 
 h1 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Share Tech Mono', monospace;
     color: #FAF9F0;
-    font-size: 1.7em;
+    font-size: 2.6em;
     text-transform: uppercase;
     margin: 5%;
     margin-bottom: 0;
@@ -121,7 +121,9 @@ h4 {
 }
 
 h2 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase;
+    font-size: 1.4em;
     background-color: aqua;
     width: fit-content;
     padding: 15px 30px;
@@ -146,8 +148,15 @@ a:hover {
 .categories {
     min-height: 100vh;
     max-height: fit-content;
-    border-top: #000249 20px solid;
     text-shadow: 1px 1px 2px #000505; 
+}
+
+.separator {
+    width: 100%;
+    height: 20px;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D4350, #A43931);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D4350, #A43931); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .cat-text {

@@ -223,6 +223,10 @@ a:hover {
     .part-nologo {
         margin-top: 50px;
     }
+
+    .youtube {
+        width: 100%;
+    }
 }
 
 @media all and (min-width: 577px) {
@@ -327,6 +331,11 @@ a:hover {
 
     .part-nologo {
         margin-top: 200px;
+    }
+    
+    .youtube {
+        width: 560px;
+        height: 315px;
     }
 }
 

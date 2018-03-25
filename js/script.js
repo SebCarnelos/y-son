@@ -17,5 +17,3 @@ $(document).scroll(function() {
       $('#totop').fadeOut();
     }
   });
-
-// Back to top button

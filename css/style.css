@@ -67,6 +67,7 @@ h1 {
 h4 {
     color: #FAF9F0;
     opacity: 0.8;
+    text-shadow: 1px 1px 2px #000505;
 }
 
 #banbuttons {
@@ -120,19 +121,22 @@ h4 {
     color: #FAF9F0;
 }
 
+#aboutme p {
+    margin: 50px 0;
+}
+
+#aboutme p:first-of-type {
+    margin-top: 100px;
+}
+
 h2 {
     font-family: 'Share Tech Mono', monospace;
     text-transform: uppercase;
     font-size: 1.4em;
     width: fit-content;
     padding: 15px 30px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
     border-bottom: #F6490D 2px solid;
-}
-
-h3 {
-    font-size: 2.2em;
-    margin: 70px 0 70px 25px;
 }
 
 a {
@@ -147,7 +151,7 @@ a:hover {
 .categories {
     min-height: 100vh;
     max-height: fit-content;
-    text-shadow: 1px 1px 2px #000505; 
+    text-shadow: 1px 1px 2px #000505;
 }
 
 .separator {
@@ -163,12 +167,23 @@ a:hover {
     padding: 50px;
 }
 
-.cat-text-p-space p:first-of-type {
-    margin: 50px 0;
+.cat-text p {
+    margin: 40px 0;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 1.1em;
+    text-decoration: underline;
+    margin-bottom: 0;
 }
 
 #partners {
     text-align: center;
+}
+
+#partners p {
+    margin: 10px;
 }
 
 #partners img {
@@ -186,6 +201,12 @@ a:hover {
 
 .youtube {
     margin-top: 20px;
+}
+
+.legend {
+    font-size: 0.8em;
+    margin: 0 !important;
+    color: #C6C6BE;
 }
 
 @media all and (max-width: 576px) {
@@ -209,17 +230,17 @@ a:hover {
     }
 
     #soundsystem {
-        background: url(../img/P1070158.jpg) no-repeat center;
+        background: linear-gradient(-225deg, rgba(0,0,0,0.1), rgba(231,75,60,0.1)), url(../img/P1070158.jpg) no-repeat center;
         background-size: cover;
     }
 
     #soundrecording {
-        background: url(../img/prisedeson.png) no-repeat center;
+        background: linear-gradient(-225deg, rgba(0,0,0,0.3), rgba(231,75,60,0.1)), url(../img/prisedeson.png) no-repeat center;
         background-size: cover;
     }
     
     #mixing {
-        background: url(../img/mix.png) no-repeat center;
+        background: linear-gradient(-225deg, rgba(0,0,0,0.2), rgba(231,75,60,0.1)), url(../img/mix.png) no-repeat center;
         background-size: cover;
     }
     
@@ -366,6 +387,7 @@ a:hover {
     text-align: center;
     opacity: 0.8;
     border: #F6490D 1px solid;
+    display: none;
 }
 
 #totop a{

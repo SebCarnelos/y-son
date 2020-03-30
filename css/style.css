@@ -1,0 +1,110 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* TODO : remove after test */
+body {
+    background-color: red;
+}
+
+#container {
+    background-color: #F5F5F5;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+#header {
+    background-color: black;
+    background-image: url(../img/mix.png);
+    background-position:center center;
+    background-size: cover;
+    color: #F5F5F5;
+    text-align: center;
+    height: 100vh;
+    z-index: 10;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh);
+}
+#header-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+#header-background div {
+    margin-bottom: 10vh;
+}
+h1 { /* Yoann Carnélos */
+    font-family: Aguafina Script;
+    font-size: 7.95em;
+    font-weight: 400;
+    margin-bottom: -46px;
+}
+h3 { /* Compositeur */
+    font-family: Prompt;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    margin-bottom: 40px;
+}
+
+/* Buttons */
+button {
+    color: #F5F5F5;
+    font-family: Prompt;
+    font-weight: 300;
+    font-size: 1.25em;
+    border-radius: 50px;
+    line-height: 0.6em;
+    margin: 16px 8px;
+    transition-property: background-color;
+    transition-duration: 400ms;
+    transition-timing-function: ease
+}
+.low-button {
+    border-color: #F5F5F5;
+    border-style: solid;
+    background: none;
+    padding: 14px;
+}
+.low-button:hover {
+    background-color: rgba(245, 245, 245, 0.32);
+
+}
+.low-button:active {
+    box-shadow: 0 0 8px #F5F5F5;
+}
+.high-button {
+    border-style: none;
+    background-color: #D84118;
+    padding: 16px;
+}
+.high-button:hover {
+    background-color: #7D1B00;
+
+}
+.high-button:active {
+    box-shadow: 0 0 8px #D84118;
+}

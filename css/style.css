@@ -20,9 +20,8 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-/* TODO : remove after test */
 body {
-    background-color: red;
+    background-color: lightgray;
 }
 
 #container {
@@ -94,7 +93,7 @@ button {
 
 }
 .low-button:active {
-    box-shadow: 0 0 8px #F5F5F5;
+    box-shadow: 0 0 10px #919191;
 }
 .high-button {
     border-style: none;
@@ -106,5 +105,5 @@ button {
 
 }
 .high-button:active {
-    box-shadow: 0 0 8px #D84118;
+    box-shadow: 0 0 10px #919191;
 }

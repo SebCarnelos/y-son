@@ -192,9 +192,15 @@ h3 { /* Compositeur */
 #compositions > h2 {
     color: #F5F5F5;
 }
-#compositions > div {
+#compositions > div > div {
     display: flex;
     justify-content: space-between;
+}
+#compositions > div > div:first-child {
+    margin-bottom: 32px;
+}
+#compositions > div > div:last-child {
+    justify-content: center;   
 }
 iframe {
     width: 576px;

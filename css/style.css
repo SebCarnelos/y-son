@@ -21,14 +21,13 @@ time, mark, audio, video {
 }
 
 body {
-    background-color: red;
+    background-color: #F5F5F5;
     font-family: Prompt;
     color: #666666;
 }
 
-#container {
-    background-color: #F5F5F5;
-    max-width: 1440px;
+.container {
+    max-width: 1184px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,6 +47,7 @@ h2 {
 }
 
 /* Buttons */
+*:focus {outline: none;}
 button {
     color: #F5F5F5;
     font-family: Prompt;
@@ -72,11 +72,11 @@ button > img {
     padding: 14px 30px;
 }
 .low-button-light:hover {
-    background-color: rgba(245, 245, 245, 0.32);
-
+    background-color: rgba(245, 245, 245, 0.16);
+    
 }
 .low-button-light:active {
-    box-shadow: 0 0 10px #919191;
+    background-color: rgba(245, 245, 245, 0.32);
 }
 .low-button-dark {
     color: #1D2528;
@@ -86,11 +86,11 @@ button > img {
     padding: 14px 30px;
 }
 .low-button-dark:hover {
-    background-color: rgba(29, 37, 40, 0.32);
-
+    background-color: rgba(29, 37, 40, 0.16);
+    
 }
 .low-button-dark:active {
-    box-shadow: 0 0 10px #919191;
+    background-color: rgba(29, 37, 40, 0.32);
 }
 .high-button {
     border-style: none;
@@ -98,11 +98,11 @@ button > img {
     padding: 16px 32px;
 }
 .high-button:hover {
-    background-color: #7D1B00;
-
+    background-color: #B2320F;
+    
 }
 .high-button:active {
-    box-shadow: 0 0 10px #919191;
+    background-color: #7D1B00;
 }
 
 /* Header */
@@ -142,7 +142,7 @@ h3 { /* Compositeur */
 
 /* Other sections than Header */
 .under-header {
-    padding: 64px 128px;
+    padding: 64px 0;
 }
 
 #portrait {
@@ -160,6 +160,7 @@ h3 { /* Compositeur */
     margin-right: 32px;
     font-size: 0.9em;
     font-weight: 200;
+    font-style: italic;
 }
 
 #about > div:first-child a {
@@ -189,18 +190,14 @@ h3 { /* Compositeur */
     background-color: #1D2528;
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
 }
-#compositions > h2 {
+#compositions > div > h2 {
     color: #F5F5F5;
 }
-#compositions > div > div {
-    display: flex;
-    justify-content: space-between;
+.margin-right-video {
+    margin-right: 32px;
 }
-#compositions > div > div:first-child {
+.margin-bottom-video {
     margin-bottom: 32px;
-}
-#compositions > div > div:last-child {
-    justify-content: center;   
 }
 iframe {
     width: 576px;

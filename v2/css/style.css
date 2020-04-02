@@ -234,6 +234,8 @@ h3 { /* Compositeur */
 }
 @media (max-width: 499px) {
     #compositions {
+        padding-top: 141px;
+        padding-bottom: 129px;
         -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
     }
 }

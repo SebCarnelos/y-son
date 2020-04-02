@@ -40,6 +40,11 @@ h2 {
     text-transform: uppercase;
     margin: -32px 0 38px 0;
 }
+@media (max-width: 499px) {
+    h2 {
+        font-size: 2.3em;
+    }
+}
 
 .full-centered {
     display: flex;
@@ -132,6 +137,17 @@ h1 { /* Yoann Carnélos */
     font-weight: 400;
     margin-bottom: -46px;
 }
+@media (max-width: 719px) {
+    h1 {
+        font-size: 7em;
+    }
+}
+@media (max-width: 499px) {
+    h1 {
+        line-height: 1.3em;
+        margin-bottom: 0px;
+    }
+}
 h3 { /* Compositeur */
     font-family: Prompt;
     text-transform: uppercase;
@@ -146,12 +162,6 @@ h3 { /* Compositeur */
     padding: 64px 0;
 }
 
-#portrait {
-    width: 456px;
-    height: 456px;
-    margin-bottom: -3px;
-}
-
 /* A propos */
 @media (min-width: 827px) {
     #about {
@@ -161,6 +171,22 @@ h3 { /* Compositeur */
 @media (max-width : 826px) {
     #about > div:last-child {
         margin-top: 23px;
+    }
+}
+@media (max-width: 719px) {
+    h1 {
+        font-size: 7em;
+    }
+}
+#portrait {
+    width: 456px;
+    height: 456px;
+    margin-bottom: -3px;
+}
+@media (max-width: 719px) {
+    #portrait {
+        width: 100%;
+        height: 100%;
     }
 }
 #about > div:first-child { /* Autrice photo */
@@ -210,6 +236,12 @@ h3 { /* Compositeur */
 iframe {
     width: 576px;
     height: 324px;
+}
+@media (max-width: 719px) {
+    iframe {
+        width: 100%;
+        height: 32vh;
+    }
 }
 @media (max-width: 1311px) {
     #compositions > div > div {

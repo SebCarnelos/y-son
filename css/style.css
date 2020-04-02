@@ -153,8 +153,15 @@ h3 { /* Compositeur */
 }
 
 /* A propos */
-#about {
-    display: flex;
+@media (min-width: 827px) {
+    #about {
+        display: flex;
+    }
+}
+@media (max-width : 826px) {
+    #about > div:last-child {
+        margin-top: 23px;
+    }
 }
 #about > div:first-child { /* Autrice photo */
     color: #1D2528;
@@ -203,6 +210,14 @@ h3 { /* Compositeur */
 iframe {
     width: 576px;
     height: 324px;
+}
+@media (max-width: 1311px) {
+    #compositions > div > div {
+        text-align: center;
+    }
+    .margin-right-video {
+        margin-right: 0px;
+    }
 }
 
 /* Contact */

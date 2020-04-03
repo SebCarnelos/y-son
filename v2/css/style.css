@@ -228,14 +228,14 @@ h3 { /* Compositeur */
 /* Compositions */
 #compositions {
     padding-top: 201px;
-    padding-bottom: 199px;
+    padding-bottom: 167px;
     background-color: #1D2528;
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
 }
 @media (max-width: 499px) {
     #compositions {
         padding-top: 141px;
-        padding-bottom: 129px;
+        padding-bottom: 97px;
         -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
     }
 }
